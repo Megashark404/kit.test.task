@@ -1,0 +1,38 @@
+.descendants {
+	margin-left:20px;
+}
+
+.tree {
+	width: 30%;
+	border: 1px solid black;
+	float: left;
+	max-height: 1000px;
+	overflow-y: scroll;
+	padding-left: 15px;
+}
+
+.content {
+	float:right;
+	width: 68%;
+}
+
+.update-form, .delete-form, .create-form {
+	margin-bottom: 20px;
+}
+
+.update-form div:first-child, .delete-form div:first-child, .create-form div:first-child 	 {
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+a.plus {
+	cursor: pointer;
+}
+
+.logout {
+	margin-bottom: 15px;
+}
+
+h1 {
+	margin-bottom: 5px;
+}
